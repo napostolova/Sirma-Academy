@@ -1,0 +1,30 @@
+h1 {
+    background-image: url("../images/sea.jpg");
+    text-align: center;
+}
+
+p {
+    padding: 10px 20px;
+}
+
+.question {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    background-size: cover;
+}
+
+.text {
+    line-height: 1.5;
+    background-image: url("../images/sea.jpg");
+    background-size: cover;
+}
+
+div>p:nth-child(3) {
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+}
+
+div>p:nth-child(1) {
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+}

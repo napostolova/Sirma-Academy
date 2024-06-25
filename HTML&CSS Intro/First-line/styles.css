@@ -1,0 +1,6 @@
+.question::first-line {
+    color: rgb(231, 162, 72);
+}
+.text::first-line {
+    background-color: antiquewhite;
+}
