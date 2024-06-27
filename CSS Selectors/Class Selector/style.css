@@ -1,3 +1,12 @@
 .highlight {
     color: red;
+    background-color: rgb(230, 204, 204);
+}
+
+.common-style {
+    margin: 20px;
+}
+
+.second-highlight {
+    background-color: pink ;
 }
