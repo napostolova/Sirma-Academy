@@ -1,0 +1,24 @@
+h1,
+h2 {
+    color: green;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    color: blue;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+div {
+    background-color: bisque;
+}
