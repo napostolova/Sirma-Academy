@@ -1,0 +1,11 @@
+div p {
+    font-size: 18px;
+    color: blue;
+    margin-left: 10px;
+}
+
+ol li {
+   margin-bottom: 5px;
+   padding: 5px;
+   background-color: azure;
+}
