@@ -1,0 +1,19 @@
+input[type="text"] {
+    padding: 5px;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+a[href="https://example.com"] {
+    color: green;
+}
+
+a[href="https://another.com"]{
+    color: rgb(255, 60, 0);
+}
