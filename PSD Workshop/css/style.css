@@ -39,3 +39,38 @@ nav {
     font-weight: 400;
     font-family: "Oswald";
 }
+
+/* Hero section styles */
+.hero {
+    background-image: url('/assets/man.png');
+    padding: 250px 80px 80px 80px;
+}
+
+.hero h1 {
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    width: 654px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.register {
+    color: #ffffff;
+    background-color: #ff630c;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 3px;
+}
