@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
 body {
-   max-width: 1400px;
+    max-width: 1400px;
     font-family: "Montserrat";
 }
 
@@ -155,7 +155,8 @@ section {
     display: flex;
 }
 
-.pricing h2, .statistics h2 {
+.pricing h2,
+.statistics h2 {
     font-size: 75px;
     text-transform: uppercase;
     font-weight: 700;
@@ -163,7 +164,8 @@ section {
     text-align: center;
 }
 
-.pricing>p, .statistics p {
+.pricing>p,
+.statistics p {
     font-size: 30px;
     color: #ffffff;
     font-weight: 400;
@@ -202,7 +204,7 @@ section {
 
 .promo-item button {
     width: 85%;
-    height: 65px; 
+    height: 65px;
     color: #ffffff;
     background-color: #303030;
     font-size: 20px;
@@ -219,7 +221,7 @@ section {
     padding: 0;
 }
 
-.image-about{
+.image-about {
     height: 960px;
     width: 715px;
     flex-basis: 50%;
@@ -228,8 +230,9 @@ section {
 .image-about img {
     width: 100%;
     height: 100%;
- 
+
 }
+
 .about-info {
     flex-basis: 50%;
     background-color: #ff630c;
@@ -257,7 +260,7 @@ section {
 
 .about-info button {
     width: 55%;
-    height: 65px; 
+    height: 65px;
     color: #ffffff;
     background-color: #303030;
     font-size: 20px;
@@ -277,13 +280,60 @@ section {
 .container-statistic {
     display: flex;
 }
+
 .item-stat {
     margin: 80px auto;
 }
+
 .item-stat h2 {
     font-size: 65px;
     text-align: center;
 }
+
 .item-stat p {
     padding: 20px;
+}
+
+/* Style quote section */
+.quote {
+    height: 975px;
+    background-image: url('../assets/third-card.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.quote .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8631c;
+    mix-blend-mode: multiply;
+
+}
+
+.quote p,
+h2 {
+    position: relative;
+}
+
+.quote h2 {
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.quote p {
+    padding: 180px 150px 80px 150px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
 }
