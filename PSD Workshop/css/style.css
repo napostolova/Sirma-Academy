@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
 body {
-    width: 1400px;
+   max-width: 1400px;
     font-family: "Montserrat";
 }
 
@@ -155,7 +155,7 @@ section {
     display: flex;
 }
 
-.pricing h2 {
+.pricing h2, .statistics h2 {
     font-size: 75px;
     text-transform: uppercase;
     font-weight: 700;
@@ -163,7 +163,7 @@ section {
     text-align: center;
 }
 
-.pricing>p {
+.pricing>p, .statistics p {
     font-size: 30px;
     color: #ffffff;
     font-weight: 400;
@@ -177,7 +177,7 @@ section {
     width: 360px;
     background-color: #ff630c;
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto;
 
 }
 
@@ -216,6 +216,7 @@ section {
 .about {
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .image-about{
@@ -265,4 +266,24 @@ section {
     margin: 0 70px;
     border: none;
     border-radius: 4px;
+}
+
+/* Style statistic section */
+.statistics {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.container-statistic {
+    display: flex;
+}
+.item-stat {
+    margin: 80px auto;
+}
+.item-stat h2 {
+    font-size: 65px;
+    text-align: center;
+}
+.item-stat p {
+    padding: 20px;
 }
