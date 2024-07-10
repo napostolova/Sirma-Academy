@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create table</title>
+    <style type="text/css">
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="myTable" style="border: 1 px;">
+    </table>
+    <form>
+        <input type="button" onclick="createTable()" value="Create the table">
+    </form>
+</body>
+<script>
+    function createElement() {
+        let tableElement = document.querySelector('#myTable');
+        //console.log(tableElement.children);
+
+        let rowNumber = tableElement.children.length;
+        if (!rowNumber) {
+            rowNumber = 0;
+        }
+
+        let firstTd = document.createElement('td');
+        firstTd.textContent = `Row${rowNumber + 1} - Column 1`;
+        let secondTd = document.createElement('td');
+        secondTd.textContent = `Row${rowNumber + 1} - Column 2`;
+
+
+        let newRow = document.createElement('tr');
+        newRow.appendChild(firstTd);
+        newRow.appendChild(secondTd);
+
+        tableElement.appendChild(newRow);
+    }
+
+    function createTable() {
+        createElement();
+
+    }
+</script>
+
+</html>
