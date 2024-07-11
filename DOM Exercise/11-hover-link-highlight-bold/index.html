@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight the bold words</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a onmouseover="onHoverHighlightBoldWords(this)" href="#" onmouseout="unhighlight()">Click this link to highlight
+        words</a>
+    <p><strong>We</strong> have just started <strong>this</strong> section for the users (beginners to intermediate) who
+        <strong>want</strong> to work with <strong>various</strong> JavaScript <strong>problems</strong> and write
+        scripts online <strong>test</strong> their JavaScipt <strong>skill</strong>.
+    </p>
+</body>
+<script>
+    function onHoverHighlightBoldWords() {
+        let targetWords = document.querySelectorAll('strong');
+        targetWords.forEach(e => e.style.color = "blue");
+    }
+
+    function unhighlight() {
+        let targetWords = document.querySelectorAll('strong');
+        targetWords.forEach(e => e.style.color = "black");
+    }
+</script>
+
+</html>
